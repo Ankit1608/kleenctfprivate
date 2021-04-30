@@ -1,0 +1,59 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.leaderboard-parent-container {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 30px 30px;
+}
+.leaderboard-parent-title {
+  color: #ff4d15;
+  font-size: 30px;
+  font-family: bebasneue-bold;
+}
+.leaderboard-trophy-container {
+  display: flex;
+  justify-content: center;
+}
+.leaderboard-trophy1-wrapper {
+  height: 380px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.leaderboard-trophy2-wrapper {
+  margin-top: 50px;
+  height: 380px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.leaderboard-trophy3-wrapper {
+  margin-top: 75px;
+  height: 380px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.leaderboard-leaderboard-text {
+  color: #fff;
+  font-size: 30px;
+  font-family: bebasneue-bold;
+}
+.leaderboard-labels {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}

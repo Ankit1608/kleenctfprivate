@@ -1,0 +1,122 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfprivateform-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ctfprivateform-container {
+  background-color: #121212;
+  width: 80%;
+  background-image: url("./images/ctfform.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px 700px;
+}
+
+.ctfprivateform-padding {
+  padding: 20px 25px;
+}
+
+.ctfprivateform-dropdowncontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ctfprivateform-dropdown1 {
+  flex: 1;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.ctfprivateform-textcontainer {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.ctfprivateform-heading {
+  font-size: 30px;
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: bebasneue-bold;
+}
+
+.ctfprivateform-description {
+  color: #a7a7a7;
+  font-size: 12px;
+  font-family: poppins-regular;
+}
+
+.ctfprivateform-datetext {
+  margin-right: 30px;
+  font-size: 14px;
+  color: #a7a7a7;
+  font-family: montserrat-regular;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+input[type="text"]:focus {
+  outline: none !important;
+  border-bottom: 1px solid #ff4d15;
+  transition: 0.5s;
+}
+
+.ctfprivateform-ctfstyle-container {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.ctfprivateform-bottom {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ctfprivateform-bottom1 {
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+
+.ctfprivateform-bottom2 {
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}

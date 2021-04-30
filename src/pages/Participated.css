@@ -1,0 +1,26 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+.participated-parent-container {
+  background-color: #000;
+  min-height: 100vh;
+}
+.participated-title-text {
+  color: #ff4d15;
+  font-size: 28px;
+  padding: 30px 30px;
+  font-family: bebasneue-bold;
+}
+
+.broken-trophy-container {
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.debug {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

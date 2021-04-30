@@ -1,0 +1,216 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.ctfprivatesettings-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px 25px;
+  height: 95vh;
+}
+.ctfprivatesettings-container {
+  display: flex;
+  flex-direction: row;
+}
+.ctfprivatesettings-container-1 {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.ctfprivatesettings-container-2 {
+  flex: 5;
+  margin-left: 100px;
+}
+.ctfprivatesettings-edit-container {
+  width: 550px;
+}
+.ctfprivatesettings-heading {
+  font-family: montserrat-regular;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.ctfprivatesettings-textbutton {
+  font-size: 16px;
+  font-family: montserrat-regular;
+  padding: 5px 35px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.ctfprivatesettings-textbutton-active {
+  font-size: 16px;
+  font-family: montserrat-regular;
+  margin-bottom: 30px;
+  padding: 5px 35px;
+  border-left: 1px solid #ff4d15;
+  color: #ff4d15;
+  cursor: pointer;
+}
+
+.ctfprivatesettings-inputcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: poppins-regular;
+}
+
+input#usernameinput {
+  width: 300px;
+  height: 35px;
+  margin: 8px 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+}
+input#emailinput {
+  width: 300px;
+  height: 35px;
+  margin: 8px 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+}
+input#passwordinput1 {
+  width: 300px;
+  height: 35px;
+  margin: 8px 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+  padding: 0px;
+}
+input#passwordinput2 {
+  width: 300px;
+  height: 35px;
+  margin: 8px 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+  padding: 0px;
+}
+input#confirmtext {
+  width: 300px;
+  height: 35px;
+  margin: 8px 5px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #000;
+  color: #ffffff;
+}
+.ctfprivatesettings-subtext {
+  color: #c4c4c4;
+  font-size: 12px;
+}
+
+.ctfprivatesettings-mainheading {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-family: poppins-regular;
+}
+
+.ctfprivatesettings-headingdes {
+  color: #c4c4c4;
+  font-size: 14px;
+  margin-bottom: 55px;
+  font-family: poppins-regular;
+}
+
+.ctfprivatesettings-savebutton {
+  padding: 10px;
+  background-color: #ff4d15;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+@media screen and (max-width: 950px) {
+  .ctfprivatesettings-edit-container {
+    width: 500px;
+  }
+
+  input#passwordinput1,
+  input#passwordinput2,
+  input#confirmtext {
+    width: 200px;
+  }
+
+  .ctfprivatesettings-subtext {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .ctfprivatesettings-container-2 {
+    margin-left: 20px;
+  }
+  .ctfprivatesettings-container-1 {
+    margin-left: 10px;
+  }
+  input#emailinput,
+  input#usernameinput,
+  input#passwordinput1,
+  input#passwordinput2,
+  input#confirmtext {
+    width: 200px;
+    height: 28px;
+  }
+  .ctfprivatesettings-edit-container {
+    width: 400px;
+  }
+  .ctfprivatesettings-heading {
+    font-size: 16px;
+  }
+  .ctfprivatesettings-textbutton,
+  .ctfprivatesettings-textbutton-active {
+    font-size: 12px;
+  }
+  .ctfprivatesettings-mainheading {
+    font-size: 20px;
+  }
+  .ctfprivatesettings-headingdes {
+    font-size: 10px;
+  }
+  .ctfprivatesettings-inputcontainer {
+    font-size: 12px;
+  }
+  .ctfprivatesettings-savebutton {
+    font-size: 10px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ctfprivatesettings-edit-container {
+    width: 220px;
+  }
+  .ctfprivatesettings-inputcontainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ctfprivatesettings-maincontainer {
+    padding: 50px 10px;
+  }
+  .ctfprivatesettings-textbutton,
+  .ctfprivatesettings-textbutton-active {
+    padding: 5px 15px;
+  }
+  .ctfprivatesettings-mainheading {
+    font-size: 18px;
+  }
+}

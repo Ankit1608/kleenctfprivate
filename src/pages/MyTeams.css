@@ -1,0 +1,43 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.myteams-parent-container {
+  background-color: #000;
+  padding: 30px 0px;
+  min-height: 100vh;
+}
+.myteams-tile-container {
+  display: flex;
+  justify-content: space-between;
+}
+.myteams-title-text {
+  color: #ff4d15;
+  font-size: 28px;
+  padding-left: 30px;
+  font-family: bebasneue-bold;
+}
+.myteams-not-add-icon-container {
+  display: flex;
+}
+.myteams-icon-container {
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  border: 1px solid #ff4d15;
+  margin-right: 15px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

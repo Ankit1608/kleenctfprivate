@@ -1,0 +1,65 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.ctfmainpage-parent-container {
+  background-color: #000;
+  min-height: 100vh;
+  padding: 30px 30px;
+}
+.ctfmainpage-title-container {
+  display: flex;
+  justify-content: center;
+}
+.ctfmainpage-title-text {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 10px;
+  font-family: bebasneue-bold;
+}
+.ctfmainpage-title-image {
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.ctfmainpage-content-container {
+  color: #a7a7a7;
+  font-size: 13px;
+  margin-top: 25px;
+  font-family: poppins-regular;
+}
+.ctfmainpage-sublabel-container {
+  margin-top: 35px;
+  display: flex;
+}
+.ctfmainpage-sublabel-text {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 50px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+.ctfmainpage-sublabel-text-active {
+  font-size: 18px;
+  color: #ff4d15;
+  margin-right: 50px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+.ctfmainpage-table-container {
+  margin-top: 30px;
+}
+@media screen and (max-width: 640px) {
+  .ctfmainpage-content-container {
+    font-size: 10px;
+  }
+}

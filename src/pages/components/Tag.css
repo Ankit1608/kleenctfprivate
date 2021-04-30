@@ -1,0 +1,103 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.tag-captain {
+  background-color: #485aff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  width: 70px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.tag-active {
+  background-color: #39903c;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  height: 25px;
+  width: 70px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.tag-edit {
+  border: 1px solid #ff4d15;
+  border-radius: 4px;
+  color: #ff4d15;
+  font-weight: bold;
+  font-size: 14px;
+  width: 65px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.tag-fill-button {
+  background-color: #ff4d15;
+  width: 120px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.tag-border-button {
+  background-color: #000;
+  border: 1px solid #ff4d15;
+  width: 120px;
+  height: 35px;
+  color: #ff4d15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.leaderboard-showsolves {
+  background-color: gray;
+  width: 120px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+
+@media screen and (max-width: 650px) {
+  .tag-border-button,
+  .tag-fill-button,
+  .tag-edit,
+  .tag-active,
+  .tag-captain {
+    width: 40px;
+    height: 20px;
+    font-size: 7px;
+    margin: 2px;
+  }
+  .leaderboard-showsolves {
+    width: 50px;
+    height: 20px;
+    font-size: 7px;
+    margin-left: 20px;
+  }
+}

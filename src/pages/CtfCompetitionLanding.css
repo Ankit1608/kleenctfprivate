@@ -1,0 +1,105 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.ctf-competition-landing-parent-container {
+  background-color: #000;
+  background-image: url("./images/flagbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  padding: 30px 30px;
+}
+.ctf-competition-landing-title-container {
+  display: flex;
+  justify-content: center;
+}
+.ctf-competition-landing-title-text {
+  font-size: 30px;
+  color: #fff;
+  margin-right: 10px;
+  font-family: bebasneue-bold;
+}
+.ctf-competition-landing-title-image {
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.ctf-competition-landing-content-container {
+  margin-top: 30px;
+}
+.ctf-competition-landing-sub-title-text {
+  color: #ff4d15;
+  font-size: 28px;
+  font-family: bebasneue-bold;
+}
+.ctf-competition-landing-pareagraph-content {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #a7a7a7;
+  font-family: poppins-regular;
+}
+.ctf-competition-landing-download-zip {
+  margin-top: 40px;
+  border: 1px thin #ff4d15;
+  background-color: #1c1b1b;
+  border-radius: 9px;
+  padding: 20px 15px;
+}
+.ctf-competition-landing-download-title-text {
+  color: #ff4d15;
+  font-size: 16px;
+  font-family: montserrat-regular;
+}
+.ctf-competition-landing-download-para-text {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+  font-family: poppins-regular;
+  text-align: justify;
+}
+.ctf-competition-landing-button-container1 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.ctf-competition-landing-button-container2 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ctf-competition-input-box {
+  width: 800px;
+  height: 35px;
+  background-color: black;
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+  border-bottom: 1px solid gray;
+}
+@media screen and (max-width: 650px) {
+  .ctf-competition-landing-pareagraph-content {
+    font-size: 10px;
+    text-align: justify;
+  }
+  .ctf-competition-landing-download-para-text {
+    font-size: 10px;
+  }
+  .ctfcompetitionsubmitbutton {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,83 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.jointeam-maincontainer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jointeam-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  padding: 30px 70px;
+}
+.jointeam-heading {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-family: bebasneue-bold;
+  color: #ff4d00;
+}
+
+.jointeam-subheading {
+  font-size: 14px;
+  color: #c4c4c4;
+  margin-bottom: 25px;
+  font-family: poppins-regular;
+}
+
+input#jointeamform {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 0px;
+  background-color: #000;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: poppins-regular;
+}
+input#jointeamform:focus {
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 10px #719ece;
+}
+.jointeam-submit {
+  text-align: center;
+  width: 90%;
+  background-color: #ff4d15;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+
+.jointeam-submit:hover {
+  background-color: #ff4d00;
+  transition: 0.3s;
+}
+@media screen and (max-width: 650px) {
+  .jointeam-container {
+    padding: 30px 30px;
+  }
+}

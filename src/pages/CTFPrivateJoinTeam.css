@@ -1,0 +1,84 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.ctfprivatejointeam-maincontainer {
+  background-color: #000000;
+  color: hsl(0, 0%, 100%);
+  min-height: 86vh;
+}
+
+.ctfprivatejointeam-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 40px;
+}
+
+.ctfprivatejointeam-subcontainer {
+  background-color: #121212;
+  padding: 60px 15px;
+  margin-top: 20px;
+
+  border-top: 1px solid gray;
+}
+
+.ctfprivatejointeam-imagecontainer {
+  margin-bottom: 30px;
+}
+.ctfprivatejointeam-debug {
+  display: flex;
+  justify-content: center;
+}
+
+.ctfprivatejointeam-description {
+  max-width: 350px;
+  font-size: 12px;
+  color: #a7a7a7;
+  font-family: poppins-regular;
+  text-align: center;
+}
+
+.ctfprivatejointeam-heading {
+  font-size: 30px;
+  color: #ff4d15;
+  margin-bottom: 40px;
+  font-family: bebasneue-bold;
+}
+
+.ctfprivatejointeam-joinnow {
+  margin-top: 50px;
+  display: flex;
+}
+
+.ctfprivatejointeam-joinnow-text {
+  padding: 8px 120px;
+  border: 1.5px solid #ff4d15;
+  border-radius: 5px;
+  cursor: pointer;
+  background: linear-gradient(to left, #000000 50%, #ff4d15 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+
+.ctfprivatejointeam-joinnow-text:hover {
+  background-position: left;
+}
+@media screen and (max-width: 650px) {
+  .ctfprivatejointeam-subcontainer {
+    margin-bottom: 30px;
+  }
+}
